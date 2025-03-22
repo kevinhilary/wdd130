@@ -13,16 +13,18 @@ h1 {
     color: darkblue;
 }
 
-.image1 {
-    width: 150px;
+main img {
+    max-width: 100%;
     height: auto;
+    display: block;
+    margin: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 main {
@@ -30,15 +32,17 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin: auto;
     border: 1px solid rgb(0 0 0/0.2);
     padding: 1rem;
     background-color: #eee;
     text-align: center;
 }
 
-.image2 {
+aside img {
     width: 200px;
     height: auto;
 }
