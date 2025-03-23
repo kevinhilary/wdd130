@@ -91,3 +91,4 @@ main img {
     top: 250px;
     max-width: 200px;
 }
+.container{display:flex;flex-direction: row;align-items: center;flex-wrap: wrap;}
