@@ -1,3 +1,5 @@
+body{font-family: 'Open Sans';}
+h1, h2{font-family: 'Poppins';}
 :root {
     --primary-color: #FFFFFF; --secondary-color:#D3D3D3; --accent-one:#686963; --accent-two:#008080
 }
