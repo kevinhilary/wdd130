@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #FFFFFF; --secondary-color:#D3D3D3; --accent-one:#686963; --accent-two:#008080
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 
 header {
-    background-color: #D3D3D3;
+    background-color: var(--secondary-color);
     padding: 10px 50px;
     height: 80px;
     display: flex;
@@ -32,6 +36,7 @@ nav {
     transform: translateX(-50%);
     position: absolute;
     left: 50%;
+    top: 5%
 }
 
 .hero-image {
@@ -115,7 +120,7 @@ main {
     padding: 10px 25px;
     border-radius: 8px;
     display: inline-block;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     text-align: center;
     position: relative;
     top: -15px;
