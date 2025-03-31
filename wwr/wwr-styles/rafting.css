@@ -1,7 +1,18 @@
-body{font-family: 'Open Sans';}
-h1, h2{font-family: 'Poppins';}
+body {
+    font-family: 'Open Sans';
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins';
+}
+
 :root {
-    --primary-color: #FFFFFF; --secondary-color:#D3D3D3; --accent-one:#686963; --accent-two:#008080
+    --primary-color: #FFFFFF;
+    --secondary-color: #D3D3D3;
+    --accent-one: #686963;
+    --accent-two: #008080
 }
 
 * {
@@ -12,12 +23,32 @@ h1, h2{font-family: 'Poppins';}
 
 header {
     background-color: var(--secondary-color);
+    display: grid;
     padding: 10px 50px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
+.History-two {
+    background-color: lightblue;
+    color: black;
+}
+
+.History-two h2 {
+    font-size: 20px;
+    text-align: center;
+    top: 20px;
+}
+
+.History-two h3 {
+    font-size: 20px;
+    text-align: center;
+    top: 20px;
+}
+
 
 .logo-image {
     width: 100px;
