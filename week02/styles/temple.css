@@ -1,0 +1,9 @@
+header{background-color: black;color: white; text-align: center; padding: 2px; font-size: 30px;letter-spacing: 2px; word-spacing: 4px;}
+main h1{text-align: center;padding: 2px;font-weight: bold;}
+main { text-align: center;}
+picture img{display: inline-block; width: 300px;box-shadow: 5px 5px 10px gray;padding: 2px;}
+.about{background-color:lightgray;width: 300px;margin: 0 auto; text-align: left;padding: 20px; margin: 40px auto;}
+.about h2{text-decoration: underline;padding: 2px; margin-top: 2px;}
+.visiting{background-color: lightgray;width: 300px;margin: 0 auto;text-align: left;padding: 20px;margin: 40px auto;}
+.visiting h2{text-decoration: underline; padding: 2px; margin-top: 2px;}
+footer{background-color: black;color: white;text-align: center;padding: 2px; font-size: 30px; letter-spacing: 2px;word-spacing: 4px;}
