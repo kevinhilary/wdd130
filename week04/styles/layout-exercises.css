@@ -23,17 +23,22 @@ div {
 
 .flex {
     background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* write declarations here */
 
 }
 
 .grid {
     background-color: #abb;
+    display: grid;
+    justify-content: center;
     /* enter declarations here */
 
 }
 
-.container2 {
+.container2 {display: flex;flex-wrap: wrap;justify-content: space-around;
     /* write declarations here */
 
 }
@@ -43,12 +48,12 @@ div {
     height: 100px;
 }
 
-.container3 {
+.container3 {display: grid;grid-template-columns: auto;
     /* write declarations here */
 
 }
 
-.columns-3 {
+.columns-3 {grid-column: 1/4;
     /* write declaration here */
 
 }
