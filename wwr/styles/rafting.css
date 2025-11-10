@@ -1,5 +1,5 @@
 :root {--primary-color: #055a05; --accent1-color: #264653; --accent2-color: #e9c46a; --heading-font: "Times New Roman", "Georgia",serif; --body-font:Arial, Helvetica, sans-serif;}
-header{background-color: white;color: var(--accent2-color);}
+header{background-color: #333333;color: var(--accent2-color);}
 header img{width: 6.25rem;}
 * {margin: 0;padding: 0;box-sizing: border-box;}
 body{font-family: var(--body-font);color: var(--accent1-color);background-color: lightgrey;}
