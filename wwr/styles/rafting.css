@@ -34,4 +34,32 @@ nav a{text-decoration: none;font-size: 1.2rem;font-weight: 700;}
 .footer{display: flex;justify-content: space-between;align-items: center;padding: 0.625rem 1.25rem;position: relative;}
 .footer-name{margin: 0;}
 .socialmedia{margin-left: auto;display: flex;gap: 0.625rem;}
+header, main, footer{width: 100%;}
+.wholepage{width:52.5rem;margin: 0 auto;}
+.Contactheading{margin-left: 12rem;color: black;padding: 2rem;}
+.q1{margin-left: 2rem;}
+.q2{margin-left: 3rem;}
+.q3{margin-left: 4rem;}
+.q4{margin-left: 1.5rem;}
+.form-grid{display: grid;grid-template-columns: 1fr 1fr;gap: 20px;}
+.map{padding: 20px;}
+.contact-form{border: #f9f9f9;padding: 20px;border: 1px solid #ccc;background-color: #f9f9f9;border-radius: 10px;}
+.contact-form button{padding: 10px;background: linear-gradient(to right,black, blue, orange);color: white;border: none;cursor: pointer;margin-top: 10px;display: block;}
+.contact-form button:hover{background-color: #6a1ab2;}
+.contact-form .form-row{margin-bottom: 15px;display: flex;align-items: center;}
+.contact-form label{width: 120px;text-align: left;margin-right: 10px;}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea{flex: 1;padding: 5px;border-radius: 7px;}
+.contact-form .radio-group{display: flex;gap: 10px;flex-direction: column;}
+.contact-form .form-row textarea{flex: none;width: 80%;margin-top: 5px;background: 8px;border-radius: 8px;}
+.contact-form button{margin-left: 6rem;border: 1px solid grey;border-radius: 7px;}
+.employees{display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 2rem;}
+.fig1 img{width: 200px;height: auto;}
+.fig1{margin-top: 2rem;border: 1rem;padding: 1rem;border-radius: 8px;box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.3);}
+figcaption{text-align: center; padding: 6px;font-weight: bold;}
+.serve h2{text-align: center;}
+.serve{border: 5px solid black;padding: 2.5rem;margin-top: 4rem;border-radius: 0.5rem;box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.3);margin-bottom: 4rem;}
+.footer{border-top: 4px solid black;padding: 1rem;margin-top: 2px;font-weight: bold;}
+
+
+
 

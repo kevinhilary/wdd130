@@ -1,0 +1,7 @@
+header{background-color: aliceblue;text-align: center;color:black;padding: 1rem;}
+form{display: grid;gap: 1rem;padding: 1rem;width: 80%;background: lightgrey;border-radius: 10px;border: 1px solid#000;margin-top: 1rem;margin-left: 5rem;}
+form input{padding: 1rem;border-radius: 8px;}
+form textarea{padding: 1.5rem;border-radius: 8px;}
+form select{padding: 1rem;border-radius: 8px;}
+p{display: inline;background: black;color: white;padding: 8px;width: 40%;text-align: center;}
+button{padding: 1rem;text-align: center;background: linear-gradient(to right, red, black, yellow);color: white;width: 45%;margin-left: 25%;border-radius: 10px;}

@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+body{background: #f5f5f5; font-family: sans-serif;}
+header{background-color: #1f4e79;color: white;padding: 2rem;text-align: center;}
+form{padding: 2rem;display: grid;border: 2px solid #fff;border-radius: 8px;}
+.column1{grid-column: 1/2;grid-row: 1/2; }
+.column2{grid-column: 2/3; gap: 2rem;}
+.column3{grid-row:2/3 ;gap: 2rem;}
+.column4{grid-row: 3/4;gap: 2rem;}
+.column5{grid-row: 4/5;gap: 2rem;}
+.column6{grid-row: 5/6;gap: 2rem;}
+.flex{display: flex;align-content: center;gap: 100px;margin-bottom: 2rem;margin-left: 20rem;}
+.column3{margin-left: 19rem;padding: 1rem;}
+.column4{margin-left: 19rem;padding: 1rem;}
+.column5{margin-left: 19rem;padding: 1rem;}
+.column6{margin-left: 19rem;padding: 1rem;}
+form label{display: block;margin-bottom: 1rem;}
+form input{padding: 0.5rem;border: 1px solid #aaa;border-radius: 8px;}
+.column3 select{padding: 0.55rem;border: 2px solid #aaa;border-radius: 8px;}
+.column5 textarea{padding: 0.55rem;border-radius: 8px;border: 2px solid#aaa;width: 50%;}
+.column6 button{padding: 0.55rem; border-radius: 8px;background: linear-gradient(to right, red, #8b0000,yellow);color: white;margin-left: 13rem;}
+.column6 button:hover{background: darkblue;}
+footer{background-color: #1a1a1a;color: white;text-align: center;padding: 3rem;}
+
+
