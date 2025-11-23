@@ -80,7 +80,44 @@ figcaption{text-align: center; padding: 6px;font-weight: bold;}
 .rafting-content{padding: 15px;}
 .rafting-content h3{font-family: 'Monserrat',sans-serif;color: #2a9d8f;font-size: 22px;margin-bottom: 8px;}
 .rafting-content p{font-family: 'Open Sans', sans-serif;font-size: 16px;color: #555555;}
+.tupigie-grid{display: grid;grid-template-columns: 1fr 1fr; gap: 1.5rem;margin-top: 2rem;margin-left: 4rem;margin-right: 4rem;}
+.tupigie img{width: 100px;height: auto;margin-left: 10rem;border-radius: 12px;justify-self: start;}
+.tupigie h3{font-style:italic ;color: green;margin-bottom: 8px;}
+.tupigie a{display: block;text-decoration: none;margin-top: 2rem;justify-self: start;margin-left: 3rem;background: linear-gradient(45deg, #ff6ec4,#7873f5);color: white;font-size: 18px;font-weight: bold;padding: 12px 28px;border: none;border-radius: 12px;box-shadow: 0 5px 15px rgba(120, 115, 245, 0.4);transition: all 0.3s ease;}
+.tupigie a:hover{transform: (translateY(-2px));box-shadow: 0 0 20px #ff6ec4, 0 0 30px #7873f5;}
+.tupigieteam{display: flex;justify-content: flex-end;margin-right: 1.5rem;}
+.tupigieteam img{border-radius: 12px; margin-bottom: 6px;box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);}
+.trips-section{padding: 2rem;max-width: 1100px;margin: auto;}
+.trips-section h2{text-align: center;font-size: 2rem;margin-bottom: 2rem;color: #333;padding-top: 1rem;border-top: 3px solid #333;}
+.trips-grid{display: grid;gap: 2rem;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));}
+.trip-card{background: #fff;border-radius: 1rem;padding: 1.5rem;box-shadow: 0 8px 20px rgba(0,0,0,0.1);}
+.trip-card img{width: 100%;border-radius: 1rem;box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);height: auto;}
+.trip-card h3{margin-top: 1rem;font-size: 1.2rem;color: #222;}
+.trip-card p{margin-top: 0.5rem;line-height: 1.5;}
+.trip-card ul{margin-top: 1rem;padding-left: 1.2rem;}
+.trips-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
 
+.trips-table caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.trips-table th, .trips-table td {
+  border: 1px solid #333; /* visible borders */
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+.trips-table th {
+  background-color: #f2f2f2;
+}
 
 
 
